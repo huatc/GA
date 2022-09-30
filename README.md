@@ -2,8 +2,9 @@
 
 This package contains code to run a genetic algorithm. Because the algorithm is computationally inexpensive, it is useful for optimizations where the objective function can be queried many times such as hyperparameter tuning or fitting a model. This genetic algorithm contains four steps:
 
-
-<center><img src="/Images/GA.jpg" width="350" height="300"></center>
+<p align="center">
+<img src="/Images/GA.jpg" width="350" height="300">
+</p>
 
 - **Evaluation:** Sorting the candidates based on their fitness score
 - **Selection:** Selecting the candidates that are passed to the next round according to their fitness score. This algorithm uses a roulette wheel approach, where the probability of being selected is proportional to the candidate's fitness
